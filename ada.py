@@ -5,5 +5,5 @@ def ada():
     print(full_name.lower())
     print(full_name.title())
     print(full_name.upper())
-    name_lower = "\t ada lovelace"
+    name_lower = f"\t{full_name.lower()}"
     print(name_lower.rstrip())
